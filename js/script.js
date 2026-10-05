@@ -8,7 +8,7 @@ const $day = $('days');
 const $hour = $('hour');
 const $minutes = $('minutes');
 const $seconds = $('seconds');
-const targetDate = new Date('2023-12-31T23:59');
+const targetDate = new Date('2026-12-31T23:59');
 const updateTimer = () => {
     let totalInSec = Math.floor(
         (targetDate.valueOf() - new Date().valueOf()) / 1000
